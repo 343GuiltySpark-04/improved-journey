@@ -1,4 +1,5 @@
-import unicurses
+from unicurses import *
 
-stdscr = unicurses.initscr()
+stdscr = initscr()
 
+noecho()
